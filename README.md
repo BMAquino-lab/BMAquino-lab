@@ -1,22 +1,50 @@
 ![Brian Aquino — software, systems, and applied AI](assets/profile-banner.svg)
 
-I’m **Brian Aquino**. I build web applications and database-backed systems, and I’m
-exploring how to turn AI into useful software.
+**Software developer & designer** · UPLB Computer Science · YSES Resident Member
 
-My projects span information management, community services, and web development.
-I’m working toward opportunities in **software engineering and applied AI**.
+I build practical websites and data-backed applications, and explore applied AI.
 
-## Selected projects
+[Portfolio](https://bmaquino-lab.github.io/PORTFOLIO-WEBSITE/) · [LinkedIn](https://www.linkedin.com/in/aquino-brian/) · [Email](mailto:aquinobrianmichael@gmail.com)
 
-| Project | Focus | Technologies |
-| :--- | :--- | :--- |
-| **[LTOProject](https://github.com/BMAquino-lab/LTOProject)** | Driver, vehicle, and traffic-violation information management with relational data and reporting. | React · TypeScript · Flask · Express · MariaDB |
-| **[SK2DConnect](https://github.com/BMAquino-lab/SK2DConnect)** | A youth governance website for SK Barangay II-D, bringing services and community information together. | JavaScript |
-| **[Portfolio Website](https://github.com/BMAquino-lab/PORTFOLIO-WEBSITE)** | My personal web portfolio. | HTML |
+## Selected work
 
-## Working with
+| Project | What it does |
+| :--- | :--- |
+| [Daluyan](https://daluyan-kapwa-uplb.web.app/) | A digital platform for KAPWA sa UPLB. |
+| [LTO Project](https://github.com/BMAquino-lab/LTOProject) · [Try the demo](https://bmaquino-lab.github.io/PORTFOLIO-WEBSITE/lto/) | A student-built information system for drivers, vehicles, and registrations. |
 
-**Python · JavaScript · TypeScript · React · Flask · Express · SQL · Git**
+## Tech stack
 
-Interested in reliable APIs, relational database design, and applications built
-with language models.
+**Languages**
+
+![Python](https://img.shields.io/badge/Python-59417D?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-59417D?style=for-the-badge&logo=javascript&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-59417D?style=for-the-badge&logo=typescript&logoColor=white)
+![C](https://img.shields.io/badge/C-59417D?style=for-the-badge&logo=c&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-59417D?style=for-the-badge&logo=dart&logoColor=white)
+![Java](https://img.shields.io/badge/Java-59417D?style=for-the-badge)
+![SQL](https://img.shields.io/badge/SQL-59417D?style=for-the-badge)
+
+**Web & mobile**
+
+![React](https://img.shields.io/badge/React-925032?style=for-the-badge&logo=react&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-925032?style=for-the-badge&logo=vite&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML-925032?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-925032?style=for-the-badge&logo=css&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-925032?style=for-the-badge&logo=flutter&logoColor=white)
+
+**Backend & data**
+
+![Node.js](https://img.shields.io/badge/Node.js-225F43?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-225F43?style=for-the-badge&logo=express&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-225F43?style=for-the-badge&logo=flask&logoColor=white)
+![MariaDB](https://img.shields.io/badge/MariaDB-225F43?style=for-the-badge&logo=mariadb&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-225F43?style=for-the-badge&logo=mongodb&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-225F43?style=for-the-badge&logo=firebase&logoColor=white)
+
+**Tools**
+
+![Git](https://img.shields.io/badge/Git-31577B?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-31577B?style=for-the-badge&logo=github&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-31577B?style=for-the-badge&logo=docker&logoColor=white)
+![Google Apps Script](https://img.shields.io/badge/Google_Apps_Script-31577B?style=for-the-badge&logo=googleappsscript&logoColor=white)
