@@ -50,3 +50,8 @@ I build practical websites and data-backed applications, and explore applied AI.
   <a href="https://www.linkedin.com/in/aquino-brian/"><img src="assets/contact-linkedin.svg" alt="Connect with Brian on LinkedIn" width="245"></a>
   <a href="mailto:aquinobrianmichael@gmail.com"><img src="assets/contact-email.svg" alt="Email aquinobrianmichael@gmail.com" width="245"></a>
 </p>
+
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/profile-footer-mobile.svg">
+  <img src="assets/profile-footer.svg" alt="Software with purpose · UPLB · YSES resident member">
+</picture>

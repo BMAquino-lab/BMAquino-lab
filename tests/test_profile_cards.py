@@ -48,6 +48,13 @@ class ProfileCardsTests(unittest.TestCase):
         updated = stats.update_readme(readme, {"repositories": 7, "stars": 2, "contributions": 31})
         self.assertEqual(readme.split(stats.END, 1)[1], updated.split(stats.END, 1)[1])
 
+    def test_footer_is_reproducible_and_describes_membership(self):
+        for mobile, filename in ((False, "profile-footer.svg"), (True, "profile-footer-mobile.svg")):
+            rendered = cards.render_footer(mobile=mobile)
+            self.assertEqual(rendered, (ROOT / "assets" / filename).read_text(encoding="utf-8"))
+            ET.fromstring(rendered)
+            self.assertIn("YSES RESIDENT MEMBER", rendered)
+
 
 if __name__ == "__main__":
     unittest.main()

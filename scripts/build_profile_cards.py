@@ -151,6 +151,21 @@ def render_contact(title: str, detail: str, kind: str) -> str:
             + '</svg>\n')
 
 
+def render_footer(*, mobile: bool = False) -> str:
+    width, height = (480, 82) if mobile else (1200, 58)
+    if mobile:
+        content = ('<path d="M0 17h114M366 17h114" stroke="#bc993e" stroke-width="1.5"/>'
+                   '<text x="240" y="22" text-anchor="middle" fill="#d6b64e" font-size="13" letter-spacing="2">SOFTWARE WITH PURPOSE</text>'
+                   '<text x="240" y="58" text-anchor="middle" fill="#a3a5a1" font-size="13" letter-spacing="2">UPLB · YSES RESIDENT MEMBER</text>')
+    else:
+        content = ('<path d="M0 29h410M718 29h105" stroke="#bc993e" stroke-width="1.5"/>'
+                   '<text x="448" y="34" fill="#d6b64e" font-size="13" letter-spacing="2">SOFTWARE WITH PURPOSE</text>'
+                   '<text x="860" y="34" fill="#a3a5a1" font-size="13" letter-spacing="2">UPLB · YSES RESIDENT MEMBER</text>')
+    return (SVG_START.format(width=width, height=height)
+            + '<title id="title">Software with purpose</title><desc id="desc">UPLB · YSES resident member</desc>'
+            + f'<g font-family="Segoe UI,Arial,sans-serif">{content}</g></svg>\n')
+
+
 def main() -> None:
     assets = ROOT / "assets"
     files = {
@@ -161,6 +176,8 @@ def main() -> None:
         "contact-portfolio.svg": render_contact("Portfolio", "See my work and other projects.", "portfolio"),
         "contact-linkedin.svg": render_contact("LinkedIn", "Let’s connect.", "linkedin"),
         "contact-email.svg": render_contact("Email", "aquinobrianmichael@gmail.com", "email"),
+        "profile-footer.svg": render_footer(),
+        "profile-footer-mobile.svg": render_footer(mobile=True),
     }
     for name, contents in files.items():
         ET.fromstring(contents)
