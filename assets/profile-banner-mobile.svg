@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="270" viewBox="0 0 720 270" role="img" aria-labelledby="title desc">
+  <title id="title">Brian Aquino</title><desc id="desc">Software developer and designer. An animated gold glow moves gently across a dark background.</desc>
+  <defs>
+    <radialGradient id="glow"><stop stop-color="#ffd84d" stop-opacity=".54"/><stop offset=".48" stop-color="#d18a1a" stop-opacity=".22"/><stop offset="1" stop-color="#d18a1a" stop-opacity="0"/></radialGradient>
+    <linearGradient id="line" x1="0" x2="1"><stop stop-color="#ffdc6b" stop-opacity="0"/><stop offset=".55" stop-color="#ffce42" stop-opacity=".85"/><stop offset="1" stop-color="#ffb329" stop-opacity="0"/></linearGradient>
+    <clipPath id="clip"><rect width="720" height="270" rx="18"/></clipPath>
+  </defs>
+  <style>
+    @keyframes drift{0%{transform:translateX(-150px);opacity:.6}50%{transform:translateX(80px);opacity:1}100%{transform:translateX(-150px);opacity:.6}}
+    @keyframes trace{0%,100%{opacity:.35}50%{opacity:.8}}
+    @media (prefers-reduced-motion: no-preference){.glow{animation:drift 12s ease-in-out infinite}.trace{animation:trace 8s ease-in-out infinite}}
+  </style>
+  <g clip-path="url(#clip)">
+    <rect width="720" height="270" fill="#0c0d0d"/>
+    <path d="M350 270 720 110v160Z" fill="#17140d"/>
+    <ellipse class="glow" cx="440" cy="275" rx="340" ry="120" fill="url(#glow)"/>
+    <path class="trace" d="M160 238c170-5 360-30 560-40" fill="none" stroke="url(#line)" stroke-width="2"/>
+    <path d="M555 0c75 23 130 65 165 128" fill="none" stroke="#d9a63e" stroke-opacity=".23"/>
+    <circle cx="113" cy="132" r="64" fill="#13120e" stroke="#a77a27" stroke-opacity=".58" stroke-width="1.5"/>
+    <circle cx="113" cy="132" r="54" fill="none" stroke="#f4c857" stroke-opacity=".22"/>
+    <text x="113" y="148" text-anchor="middle" fill="#f4c95a" font-family="Georgia,serif" font-size="45" letter-spacing="-4">BA</text>
+    <text x="209" y="127" fill="#f8f7f1" font-family="Segoe UI,Arial,sans-serif" font-weight="700" font-size="58" letter-spacing="-1.5">Brian <tspan fill="#ffd34e">Aquino</tspan></text>
+    <text x="211" y="169" fill="#d2cdbd" font-family="Segoe UI,Arial,sans-serif" font-size="23">Software developer &amp; designer</text>
+    <path d="M211 191h58" stroke="#f6c64e" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>

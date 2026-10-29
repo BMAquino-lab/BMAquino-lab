@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="180" viewBox="0 0 1200 180" role="img" aria-labelledby="title desc">
+  <title id="title">Public GitHub activity</title><desc id="desc">6 public repositories, 0 stars on public repositories, and 29 public contributions in the last 12 months.</desc>
+  <defs>
+    <radialGradient id="glow"><stop stop-color="#e6b22f" stop-opacity=".30"/><stop offset="1" stop-color="#e6b22f" stop-opacity="0"/></radialGradient>
+    <clipPath id="clip"><rect width="1200" height="180" rx="16"/></clipPath>
+  </defs>
+  <style>
+    @keyframes glow {0%,100%{opacity:.45;transform:translateX(-40px)}50%{opacity:1;transform:translateX(40px)}}
+    @media (prefers-reduced-motion: no-preference){.glow{animation:glow 11s ease-in-out infinite}}
+  </style>
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="180" fill="#101110"/>
+    <ellipse class="glow" cx="600" cy="192" rx="400" ry="90" fill="url(#glow)"/>
+    <path d="M400 31v118M800 31v118" stroke="#8b7650" stroke-opacity=".3"/>
+    <text x="200" y="78" text-anchor="middle" fill="#ffd45a" font-family="Segoe UI,Arial,sans-serif" font-size="58" font-weight="700">6</text>
+<text x="200" y="118" text-anchor="middle" fill="#e6e1d5" font-family="Segoe UI,Arial,sans-serif" font-size="19" font-weight="600">PUBLIC REPOS</text><text x="600" y="78" text-anchor="middle" fill="#ffd45a" font-family="Segoe UI,Arial,sans-serif" font-size="58" font-weight="700">0</text>
+<text x="600" y="118" text-anchor="middle" fill="#e6e1d5" font-family="Segoe UI,Arial,sans-serif" font-size="19" font-weight="600">PUBLIC STARS</text><text x="1000" y="78" text-anchor="middle" fill="#ffd45a" font-family="Segoe UI,Arial,sans-serif" font-size="58" font-weight="700">29</text>
+<text x="1000" y="118" text-anchor="middle" fill="#e6e1d5" font-family="Segoe UI,Arial,sans-serif" font-size="19" font-weight="600">CONTRIBUTIONS</text><text x="1000" y="145" text-anchor="middle" fill="#a9a293" font-family="Segoe UI,Arial,sans-serif" font-size="16">PUBLIC · LAST YEAR</text>
+  </g>
+</svg>

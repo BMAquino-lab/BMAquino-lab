@@ -1,0 +1,44 @@
+name: Refresh public profile statistics
+
+on:
+  push:
+    paths:
+      - '.github/workflows/profile-stats.yml'
+      - 'scripts/update_profile_stats.py'
+      - 'tests/test_profile_stats.py'
+  schedule:
+    - cron: '17 23 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-statistics
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+      - name: Test the statistics generator
+        run: python -m unittest discover -s tests -v
+      - name: Fetch public statistics
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update_profile_stats.py
+      - name: Publish changed statistics
+        if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          if git diff --quiet -- README.md assets/profile-stats.svg assets/profile-stats-mobile.svg; then
+            echo 'Statistics have not changed.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md assets/profile-stats.svg assets/profile-stats-mobile.svg
+          git commit -m 'Refresh public profile statistics'
+          git push origin "HEAD:refs/heads/$DEFAULT_BRANCH"

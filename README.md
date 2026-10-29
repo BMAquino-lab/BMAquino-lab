@@ -1,10 +1,20 @@
-![Brian Aquino](assets/profile-banner.svg)
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/profile-banner-mobile.svg">
+  <img src="assets/profile-banner.svg" alt="Brian Aquino — software developer and designer">
+</picture>
 
-**Software developer & designer** · UPLB Computer Science · YSES Resident Member
+**UPLB Computer Science** · YSES Resident Member
 
 I build practical websites and data-backed applications, and explore applied AI.
 
 [Portfolio](https://bmaquino-lab.github.io/PORTFOLIO-WEBSITE/) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/aquino-brian/) &nbsp;·&nbsp; [Email](mailto:aquinobrianmichael@gmail.com)
+
+<!-- profile-stats:start -->
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/profile-stats-mobile.svg">
+  <img src="assets/profile-stats.svg" alt="Public GitHub activity: 6 repositories, 0 stars, and 29 contributions in the last 12 months. Refreshed daily.">
+</picture>
+<!-- profile-stats:end -->
 
 ## Selected work
 

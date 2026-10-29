@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="160" viewBox="0 0 480 160" role="img" aria-labelledby="title desc">
+  <title id="title">Public GitHub activity</title><desc id="desc">6 public repositories, 0 stars on public repositories, and 29 public contributions in the last 12 months.</desc>
+  <defs>
+    <radialGradient id="glow"><stop stop-color="#e6b22f" stop-opacity=".30"/><stop offset="1" stop-color="#e6b22f" stop-opacity="0"/></radialGradient>
+    <clipPath id="clip"><rect width="480" height="160" rx="16"/></clipPath>
+  </defs>
+  <style>
+    @keyframes glow {0%,100%{opacity:.45;transform:translateX(-40px)}50%{opacity:1;transform:translateX(40px)}}
+    @media (prefers-reduced-motion: no-preference){.glow{animation:glow 11s ease-in-out infinite}}
+  </style>
+  <g clip-path="url(#clip)">
+    <rect width="480" height="160" fill="#101110"/>
+    <ellipse class="glow" cx="240" cy="172" rx="160" ry="80" fill="url(#glow)"/>
+    <path d="M160 31v98M320 31v98" stroke="#8b7650" stroke-opacity=".3"/>
+    <text x="80" y="69" text-anchor="middle" fill="#ffd45a" font-family="Segoe UI,Arial,sans-serif" font-size="42" font-weight="700">6</text>
+<text x="80" y="103" text-anchor="middle" fill="#e6e1d5" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="600">PUBLIC REPOS</text><text x="240" y="69" text-anchor="middle" fill="#ffd45a" font-family="Segoe UI,Arial,sans-serif" font-size="42" font-weight="700">0</text>
+<text x="240" y="103" text-anchor="middle" fill="#e6e1d5" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="600">PUBLIC STARS</text><text x="400" y="69" text-anchor="middle" fill="#ffd45a" font-family="Segoe UI,Arial,sans-serif" font-size="42" font-weight="700">29</text>
+<text x="400" y="103" text-anchor="middle" fill="#e6e1d5" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="600">CONTRIBUTIONS</text><text x="400" y="127" text-anchor="middle" fill="#a9a293" font-family="Segoe UI,Arial,sans-serif" font-size="12">PUBLIC · LAST YEAR</text>
+  </g>
+</svg>
