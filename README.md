@@ -1,50 +1,30 @@
-![Brian Aquino — software, systems, and applied AI](assets/profile-banner.svg)
+![Brian Aquino](assets/profile-banner.svg)
 
 **Software developer & designer** · UPLB Computer Science · YSES Resident Member
 
 I build practical websites and data-backed applications, and explore applied AI.
 
-[Portfolio](https://bmaquino-lab.github.io/PORTFOLIO-WEBSITE/) · [LinkedIn](https://www.linkedin.com/in/aquino-brian/) · [Email](mailto:aquinobrianmichael@gmail.com)
+[Portfolio](https://bmaquino-lab.github.io/PORTFOLIO-WEBSITE/) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/aquino-brian/) &nbsp;·&nbsp; [Email](mailto:aquinobrianmichael@gmail.com)
 
 ## Selected work
 
-| Project | What it does |
-| :--- | :--- |
-| [Daluyan](https://daluyan-kapwa-uplb.web.app/) | A digital platform for KAPWA sa UPLB. |
-| [LTO Project](https://github.com/BMAquino-lab/LTOProject) · [Try the demo](https://bmaquino-lab.github.io/PORTFOLIO-WEBSITE/lto/) | A student-built information system for drivers, vehicles, and registrations. |
+<table>
+  <tr>
+    <td width="42%"><a href="https://daluyan-kapwa-uplb.web.app/"><img src="assets/daluyan-preview.jpg" alt="Daluyan community website preview" width="300"></a></td>
+    <td><strong>Daluyan</strong><br>Community website<br><br>A digital home for KAPWA sa UPLB.<br><br><a href="https://daluyan-kapwa-uplb.web.app/">Visit website →</a></td>
+  </tr>
+  <tr>
+    <td width="42%"><a href="https://bmaquino-lab.github.io/PORTFOLIO-WEBSITE/lto/"><img src="assets/lto-preview.jpg" alt="LTO Project demo preview" width="300"></a></td>
+    <td><strong>LTO Project</strong><br>Student-built information system<br><br>Explore an interactive demo with fictional data.<br><br><a href="https://bmaquino-lab.github.io/PORTFOLIO-WEBSITE/lto/">Try the demo →</a> &nbsp;·&nbsp; <a href="https://github.com/BMAquino-lab/LTOProject">Source code</a></td>
+  </tr>
+</table>
 
 ## Tech stack
 
-**Languages**
+**Languages** &nbsp; Python · JavaScript · TypeScript · C · Dart · Java · SQL
 
-![Python](https://img.shields.io/badge/Python-59417D?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-59417D?style=for-the-badge&logo=javascript&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-59417D?style=for-the-badge&logo=typescript&logoColor=white)
-![C](https://img.shields.io/badge/C-59417D?style=for-the-badge&logo=c&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-59417D?style=for-the-badge&logo=dart&logoColor=white)
-![Java](https://img.shields.io/badge/Java-59417D?style=for-the-badge)
-![SQL](https://img.shields.io/badge/SQL-59417D?style=for-the-badge)
+**Web & mobile** &nbsp; React · Vite · HTML · CSS · Flutter
 
-**Web & mobile**
+**Backend & data** &nbsp; Node.js · Express · Flask · MariaDB · MongoDB · Firebase
 
-![React](https://img.shields.io/badge/React-925032?style=for-the-badge&logo=react&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-925032?style=for-the-badge&logo=vite&logoColor=white)
-![HTML](https://img.shields.io/badge/HTML-925032?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-925032?style=for-the-badge&logo=css&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-925032?style=for-the-badge&logo=flutter&logoColor=white)
-
-**Backend & data**
-
-![Node.js](https://img.shields.io/badge/Node.js-225F43?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-225F43?style=for-the-badge&logo=express&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-225F43?style=for-the-badge&logo=flask&logoColor=white)
-![MariaDB](https://img.shields.io/badge/MariaDB-225F43?style=for-the-badge&logo=mariadb&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-225F43?style=for-the-badge&logo=mongodb&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-225F43?style=for-the-badge&logo=firebase&logoColor=white)
-
-**Tools**
-
-![Git](https://img.shields.io/badge/Git-31577B?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-31577B?style=for-the-badge&logo=github&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-31577B?style=for-the-badge&logo=docker&logoColor=white)
-![Google Apps Script](https://img.shields.io/badge/Google_Apps_Script-31577B?style=for-the-badge&logo=googleappsscript&logoColor=white)
+**Tools** &nbsp; Git · GitHub · Docker · Google Apps Script

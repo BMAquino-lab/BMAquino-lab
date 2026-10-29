@@ -1,27 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title description">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270" role="img" aria-labelledby="title description">
   <title id="title">Brian Aquino</title>
-  <desc id="description">Software, systems, and applied AI. Building useful software, one project at a time.</desc>
+  <desc id="description">An editorial banner in charcoal and gold for Brian Aquino.</desc>
   <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#111b2b"/>
-      <stop offset="1" stop-color="#0b111b"/>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#171512"/>
+      <stop offset="1" stop-color="#0e0e0e"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#78d7ca"/>
-      <stop offset="1" stop-color="#7aa9ee"/>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#f0c67c"/>
+      <stop offset="1" stop-color="#c18a40"/>
     </linearGradient>
+    <clipPath id="frame"><rect width="1200" height="270" rx="14"/></clipPath>
   </defs>
-  <rect width="1200" height="300" rx="16" fill="url(#background)"/>
-  <g fill="none" stroke="#253348" stroke-width="1">
-    <path d="M920 0v300M1000 0v300M1080 0v300M1160 0v300M840 0v300"/>
-    <path d="M800 60h400M800 140h400M800 220h400"/>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="270" fill="url(#surface)"/>
+    <path d="M698 270 1200 72v198Z" fill="#211b14"/>
+    <path d="M843 270 1200 147v123Z" fill="#2b2115"/>
+    <path d="M760 -5c148 50 239 145 280 280M891 -5c121 46 198 115 243 202M755 270 1200 94" fill="none" stroke="#d8a75c" stroke-opacity=".34" stroke-width="1.5"/>
+    <path d="M1132 0v270M1010 0v270" stroke="#d8a75c" stroke-opacity=".12"/>
+    <g transform="translate(78 65)" fill="none" stroke="url(#gold)" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0 140V0h35c31 0 49 14 49 36 0 18-12 29-28 32 22 3 37 15 37 36 0 23-20 36-52 36Z" stroke-width="2"/>
+      <path d="M20 20v100h22c19 0 30-8 30-20 0-13-11-21-30-21H20m0-20h17c17 0 26-7 26-19S54 20 37 20Z" stroke-width="1.5" opacity=".85"/>
+    </g>
+    <text x="230" y="157" fill="#f8f4ed" font-family="Georgia,Times New Roman,serif" font-size="83" letter-spacing="-1.4">Brian Aquino</text>
+    <path d="M232 189h78" stroke="url(#gold)" stroke-width="3" stroke-linecap="round"/>
   </g>
-  <rect x="50" y="51" width="36" height="4" rx="2" fill="url(#accent)"/>
-  <text x="50" y="91" fill="#99b7cb" font-family="Segoe UI,Arial,sans-serif" font-size="14" letter-spacing="3">SOFTWARE / SYSTEMS / APPLIED AI</text>
-  <text x="46" y="167" fill="#f1f5fa" font-family="Segoe UI,Arial,sans-serif" font-size="65" font-weight="700" letter-spacing="-2">Brian Aquino</text>
-  <text x="50" y="217" fill="#b1bdcd" font-family="Segoe UI,Arial,sans-serif" font-size="21">Building useful software, one project at a time.</text>
-  <g transform="translate(930 100)" fill="none" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M30 15L0 50l30 35M110 15l30 35-30 35M85 0L55 100"/>
-  </g>
-  <path d="M50 266h1100" stroke="#243047"/>
 </svg>
