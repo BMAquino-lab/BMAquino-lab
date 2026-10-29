@@ -7,8 +7,6 @@
 
 I build practical websites and data-backed applications, and explore applied AI.
 
-[Portfolio](https://bmaquino-lab.github.io/PORTFOLIO-WEBSITE/) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/aquino-brian/) &nbsp;·&nbsp; [Email](mailto:aquinobrianmichael@gmail.com)
-
 <!-- profile-stats:start -->
 <picture>
   <source media="(max-width: 600px)" srcset="assets/profile-stats-mobile.svg">
@@ -29,12 +27,26 @@ I build practical websites and data-backed applications, and explore applied AI.
   </tr>
 </table>
 
-## Tech stack
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/tech-cards-mobile.svg">
+  <img src="assets/tech-cards.svg" alt="Tech stack: Languages — Python, JavaScript, TypeScript, C, Dart, Java, SQL. Web and mobile — React, Vite, HTML, CSS, Flutter. Backend and data — Node.js, Express, Flask, MariaDB, MongoDB, Firebase. Tools — Git, GitHub, Docker, Google Apps Script.">
+</picture>
 
-**Languages** &nbsp; Python · JavaScript · TypeScript · C · Dart · Java · SQL
+<details>
+  <summary>Skills as text</summary>
+  <p><strong>Languages:</strong> Python · JavaScript · TypeScript · C · Dart · Java · SQL</p>
+  <p><strong>Web &amp; mobile:</strong> React · Vite · HTML · CSS · Flutter</p>
+  <p><strong>Backend &amp; data:</strong> Node.js · Express · Flask · MariaDB · MongoDB · Firebase</p>
+  <p><strong>Tools:</strong> Git · GitHub · Docker · Google Apps Script</p>
+</details>
 
-**Web & mobile** &nbsp; React · Vite · HTML · CSS · Flutter
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/connect-heading-mobile.svg">
+  <img src="assets/connect-heading.svg" alt="Let's connect">
+</picture>
 
-**Backend & data** &nbsp; Node.js · Express · Flask · MariaDB · MongoDB · Firebase
-
-**Tools** &nbsp; Git · GitHub · Docker · Google Apps Script
+<p align="center">
+  <a href="https://bmaquino-lab.github.io/PORTFOLIO-WEBSITE/"><img src="assets/contact-portfolio.svg" alt="Portfolio — see my work and other projects" width="245"></a>
+  <a href="https://www.linkedin.com/in/aquino-brian/"><img src="assets/contact-linkedin.svg" alt="Connect with Brian on LinkedIn" width="245"></a>
+  <a href="mailto:aquinobrianmichael@gmail.com"><img src="assets/contact-email.svg" alt="Email aquinobrianmichael@gmail.com" width="245"></a>
+</p>
